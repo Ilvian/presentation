@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-int binarySearch(int array[], int left, int right, int target)
+int binarySearch(int array[], int size, int target)
 {
+	int left = 0;
+	int right = size - 1;
+
 	while (left <= right)
 	{
 		int mid = (left + right) / 2;
@@ -20,7 +23,7 @@ int main()
 	int array[] = {1, 2, 3, 4, 5};
 	int size = sizeof(array) / sizeof(array[0]);
 	int target = 3;
-	int result = binarySearch(array, 0, size - 1, target);
+	int result = binarySearch(array, size, target);
 	
 	if (result != -1)
 		printf("Element found at index %d\n", result);
