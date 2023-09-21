@@ -1,3 +1,5 @@
+C - Search Algorithms
+
 A searching algorithm is a method used to find a particular item or set of items with specific properties within a collection, such as an array or a list. The objective is to determine the presence of the desired item and, in some cases, its location.
 
 Websites: When you type something into a search bar (like on Google or Amazon), a search algorithm helps find the relevant results.
